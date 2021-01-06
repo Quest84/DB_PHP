@@ -1,11 +1,11 @@
 <?php
 include("conexion.php");
 
-	$id_carga = $_REQUEST['id_carga'];
-	$id_materia = $_REQUEST['id_materia']
+	$id = $_REQUEST['id'];
+	$id2 = $_REQUEST['id2'];
 
-	$query = "DELETE FROM materias_carga WHERE id_carga_acad = '$id_carga'
-	and clave_materia = '$id_materia'";
+	$query = "DELETE FROM materias_carga WHERE id_carga_acad = '$id'
+	and clave_materia = '$id2'";
 
 	$resultado = $conexion->query($query);
 

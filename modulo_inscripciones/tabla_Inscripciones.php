@@ -32,8 +32,12 @@
 						<tr>
 							<td><center><?php echo $row['id_inscripcion']; ?></center></td>
 							<td><center><?php echo $row['id_carga_acad']; ?></center></td>
-							<td><a href = "F_Modificar_Inscripciones.php?id=<?php echo $row['id_inscripcion']; ?>;">Modificar</a></td>
-							<td><a href = "OP_Eliminar_Inscripciones.php?id=<?php echo $row['id_inscripcion']; ?>;">Eliminar</a></td>
+							<td><a href = "F_Modificar_Inscripciones.php?id=<?php echo $row['id_inscripcion']; ?>;">
+							<center><img border ="0" alt= "editar" src=editar.png width="30" height="30">
+							</a><center/>
+							<td><a href = "OP_Eliminar_Inscripciones.php?id=<?php echo $row['id_inscripcion']; ?>;">
+							<center><img border ="0" alt= "eliminar" src=eliminar.png width="30" height="30">
+							</a><center/>
 
 						</tr>						
 

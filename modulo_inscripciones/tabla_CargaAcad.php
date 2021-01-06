@@ -35,8 +35,12 @@
 							<td><center><?php echo $row['id_carga_acad']; ?></center></td>
 							<td><center><?php echo $row['num_control']; ?></center></td>
 							<td><center><?php echo $row['id_grupo']; ?></center></td>
-							<td><a href = "F_Modificar_CargaAcad.php?id=<?php echo $row['id_carga_acad']; ?>;">Modificar</a></td>
-							<td><a href = "OP_Eliminar_CargaAcad.php?id=<?php echo $row['id_carga_acad']; ?>;">Eliminar</a></td>
+							<td><a href = "F_Modificar_CargaAcad.php?id=<?php echo $row['id_carga_acad']; ?>;">
+							<center><img border ="0" alt= "editar" src=editar.png width="30" height="30">
+							</a><center/>
+							<td><a href = "OP_Eliminar_CargaAcad.php?id=<?php echo $row['id_carga_acad']; ?>;">
+							<center><img border ="0" alt= "eliminar" src=eliminar.png width="30" height="30">
+							</a><center/>
 
 						</tr>						
 

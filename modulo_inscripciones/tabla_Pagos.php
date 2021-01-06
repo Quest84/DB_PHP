@@ -36,9 +36,12 @@
 							<td><center><?php echo $row['folio']; ?></center></td>
 							<td><center><?php echo $row['tipoPago']; ?></center></td>
 							<td><center><?php echo $row['Cantidad']; ?></center></td>
-							<td><a href = "F_Modificar_Pagos.php?id=<?php echo $row['id_pago']; ?>;">Modificar</a></td>
-							<td><a href = "OP_Eliminar_Pagos.php?id=<?php echo $row['id_pago']; ?>;">Eliminar</a></td>
-
+							<td><a href = "F_Modificar_Pagos.php?id=<?php echo $row['id_pago']; ?>;">
+							<center><img border ="0" alt= "editar" src=editar.png width="30" height="30">
+							</a><center/>
+							<td><a href = "OP_Eliminar_Pagos.php?id=<?php echo $row['id_pago']; ?>;">
+							<center><img border ="0" alt= "eliminar" src=eliminar.png width="30" height="30">
+							</a><center/>
 						</tr>						
 
 					<?php

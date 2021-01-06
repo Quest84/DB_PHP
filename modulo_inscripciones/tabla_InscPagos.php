@@ -32,7 +32,9 @@
 						<tr>
 							<td><center><?php echo $row['id_inscripcion']; ?></center></td>
 							<td><center><?php echo $row['id_pago']; ?></center></td>
-							<td><a href = "OP_Eliminar_InscPagos.php?id=<?php echo $row['id_pago']; ?>;"><center/>Eliminar</center></td>
+							<td><a href = "OP_Eliminar_InscPagos.php?id=<?php echo $row['id_pago']; ?>;">
+							<center><img border ="0" alt= "eliminar" src=eliminar.png width="30" height="30">
+							</a><center/>
 						</tr>						
 					<?php
 							}

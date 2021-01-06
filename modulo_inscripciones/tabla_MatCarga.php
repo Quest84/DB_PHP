@@ -32,7 +32,9 @@
 						<tr>
 							<td><center><?php echo $row['id_carga_acad']; ?></center></td>
 							<td><center><?php echo $row['clave_materia']; ?></center></td>
-							<td><a href = "OP_Eliminar_MatCarga.php?id_carga=<?php echo $row['id_carga_acad']; ?>?id_materia=<?php echo $row['clave_materia'];?>;"><center/>Eliminar</center></td>
+							<td><a href = "OP_Eliminar_MatCarga.php?id=<?php echo $row['id_carga_acad']; ?>;">
+							<center><img border ="0" alt= "eliminar" src=eliminar.png width="30" height="30">
+							</a><center/>
 						</tr>						
 					<?php
 							}
