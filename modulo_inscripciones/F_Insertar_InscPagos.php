@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html>
+<style>
+L{
+	font-size:18px;
+}
+
+body{
+	background-image: url("tesjo.png");
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+
+}
+</style>
 <head>
 	<title>Guardar</title>
 </head>
@@ -10,8 +23,9 @@
 			</form>			
 		<form action = "OP_Insertar_InscPagos.php" method = "POST">
 		<form>
+			<font size face="roboto" color=black>
 			<br/>
-			<th>Insertar [Pagos]</th>
+			<th><L>Insertar [Pagos]</L></th>
 			<br/>
 			<input type = "text" REQUIRE name = "ID_Inscripcion" placeholder = "ID de la Inscripcion..." value = ""/>
 			<br/>

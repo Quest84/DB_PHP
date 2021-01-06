@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html>
+<style>
+L{
+	font-size:18px;
+}
+
+body{
+	background-image: url("tesjo.png");
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
 <head>
 	<title>Tabla</title>
 </head>
 <body>
+	<font size face="roboto" color=white>
 	<center>
 		<form method = "LINK" action = "index.php">
 			<input type = "submit" value = "Regresar">
@@ -11,15 +45,17 @@
 		<table border = "3">
 			<thead>
 				<tr>
+					<table style border=1 bgcolor=black>
 					<th colspan="1"><a href="F_Insertar_Inscripciones.php">Nuevo</a></th>
 					<th colspan="7">Inscripciones</th>
 				</tr>
 			</thead>
 			<tbody>
+				<font size="14" face="roboto" color=white>
 				<tr>
-					<th><center>ID Inscripcion</center></th>
-					<th><center>ID Carga Academica</center></th>
-					<th colspan = "2"><center>Operaciones</center></th>
+					<th><center><L>ID Inscripcion</L></center></th>
+					<th><center><L>ID Carga Academica</L></center></th>
+					<th colspan = "2"><center><L>Operaciones</L></center></th>
 
 				</tr>
 				<?php

@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html>
+<style>
+L{
+	font-size:18px;
+}
+
+body{
+	background-image: url("tesjo.png");
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+
+}
+</style>
 <head>
 	<title>Modificar</title>
 </head>
@@ -20,11 +33,12 @@
 
 		<form action = "OP_Modificar_Inscripciones.php?id=<?php echo $row['id_inscripcion'];?>" method = "POST">
 		<form>
+			<font size face="roboto" color=black>
 			<br/>
-			<th>Modificar [Inscripciones]</th>
+			<th><L>Modificar [Inscripciones]</L></th>
 			<br/>
 			<br/>
-			<th>ID Carga Academica<th>
+			<th><L>ID Carga Academica</L><th>
 			<br/>
 			<input type="text" REQUIRE name = "ID_Carga_Acad" placeholder = "" value = "<?php echo $row['id_carga_acad'];?>"/>
 			<br/>
