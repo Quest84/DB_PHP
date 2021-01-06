@@ -32,12 +32,12 @@
 				</tr>
 				
 				<tr>
-					<td><center><a href = "tabla_InscPagos.php">Inscripciones_Pagos</center></td>
+					<td><center><a href = "tabla_InscPagos.php">Inscripciones-Pagos</center></td>
 
 				</tr>
 				
 				<tr>
-					<td><center><a href = "tabla_MatCarg.php">MateriasCarga</center></td>
+					<td><center><a href = "tabla_MatCarga.php">Materias-Carga</center></td>
 				
 			</a>
 		</center>
