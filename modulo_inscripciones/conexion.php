@@ -1,3 +1,3 @@
 <?php 
-	$conexion = new mysqli("server", "user", "password", "database");
+	$conexion = new mysqli("localhost", "root", "questionmydreams84", "taller");
 ?>

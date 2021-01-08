@@ -8,7 +8,7 @@ include("conexion.php");
 	$TipoPago = $_POST['tipoPago'];
 	$Cantidad = $_POST['Cantidad'];
 
-	$query = "DELETE FROM Pagos WHERE ID_Pago = '$id'";
+	$query = "DELETE FROM pagos WHERE id_pago = '$id'";
 
 	$resultado = $conexion->query($query);
 

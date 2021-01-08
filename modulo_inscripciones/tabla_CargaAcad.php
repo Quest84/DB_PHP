@@ -57,7 +57,7 @@ a:active {
 					<th><center><L>ID Carga Academica</L></center></th>
 					<th><center><L>Numero de Control</L></center></th>
 					<th><center><L>ID del Grupo</L></center></th>
-					<th colspan = "2"><center><L>Operaciones</L></center></th>
+					<th colspan = "3"><center><L>Operaciones</L></center></th>
 					
 
 				</tr>
@@ -72,13 +72,16 @@ a:active {
 							<td><center><?php echo $row['id_carga_acad']; ?></center></td>
 							<td><center><?php echo $row['num_control']; ?></center></td>
 							<td><center><?php echo $row['id_grupo']; ?></center></td>
+							</a><center/>
+							<td><a href = "OP_Generar_CargaAcad.php?id=<?php echo $row['id_carga_acad']; ?>
+							&id2=<?php echo $row['num_control'];?>">
+							<center><img border ="0" alt= "descargar" src=download.png width="30" height="30">
+							</a><center/>
 							<td><a href = "F_Modificar_CargaAcad.php?id=<?php echo $row['id_carga_acad']; ?>;">
 							<center><img border ="0" alt= "editar" src=editar.png width="30" height="30">
 							</a><center/>
 							<td><a href = "OP_Eliminar_CargaAcad.php?id=<?php echo $row['id_carga_acad']; ?>;">
 							<center><img border ="0" alt= "eliminar" src=eliminar.png width="30" height="30">
-							</a><center/>
-
 						</tr>						
 
 					<?php

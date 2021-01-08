@@ -7,7 +7,7 @@ include("conexion.php");
 	$num_control = $_POST['NControl'];
 	$ID_grupo = $_POST['ID_Grupo'];
 
-	$query = "INSERT INTO Carga_Academica (id_carga_acad, num_control, id_grupo) VALUES 
+	$query = "INSERT INTO carga_academica (id_carga_acad, num_control, id_grupo) VALUES 
 	('$ID_cargaAcad', '$num_control', '$ID_grupo')";
 
 	$resultado = $conexion->query($query);

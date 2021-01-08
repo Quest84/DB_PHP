@@ -26,7 +26,7 @@ body{
 
 					include ("conexion.php");
 					
-					$query = "SELECT * FROM Inscripciones WHERE ID_Inscripcion = '$id'";
+					$query = "SELECT * FROM inscripciones WHERE id_inscripcion = '$id'";
 					$resultado = $conexion->query($query);
 					$row=$resultado->fetch_assoc();
 				?>	

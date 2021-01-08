@@ -26,7 +26,7 @@ body{
 
 					include ("conexion.php");
 					
-					$query = "SELECT * FROM Pagos WHERE ID_Pago = '$id'";
+					$query = "SELECT * FROM pagos WHERE id_pago = '$id'";
 					$resultado = $conexion->query($query);
 					$row=$resultado->fetch_assoc();
 				?>	

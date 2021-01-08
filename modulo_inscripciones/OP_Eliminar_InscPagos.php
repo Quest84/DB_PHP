@@ -3,7 +3,7 @@ include("conexion.php");
 
 	$id = $_REQUEST['id'];
 
-	$query = "DELETE FROM Inscripciones_Pago WHERE id_pago = '$id'";
+	$query = "DELETE FROM inscripciones_pago WHERE id_pago = '$id'";
 
 	$resultado = $conexion->query($query);
 

@@ -6,7 +6,7 @@ include("conexion.php");
 	$ID_Inscripcion = $_POST['ID_Inscripcion'];
 	$ID_Carga_Acad = $_POST['ID_Carga_Acad'];
 
-	$query = "DELETE FROM Inscripciones WHERE ID_Inscripcion = '$id'";
+	$query = "DELETE FROM inscripciones WHERE id_inscripcion = '$id'";
 
 	$resultado = $conexion->query($query);
 

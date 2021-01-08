@@ -10,7 +10,6 @@ body{
 	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-position: center;
-
 }
 </style>
 <head>
@@ -26,7 +25,7 @@ body{
 
 					include ("conexion.php");
 					
-					$query = "SELECT * FROM Carga_Academica WHERE id_carga_acad = '$id'";
+					$query = "SELECT * FROM carga_academica WHERE id_carga_acad = '$id'";
 					$resultado = $conexion->query($query);
 					$row=$resultado->fetch_assoc();
 				?>	

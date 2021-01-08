@@ -3,7 +3,7 @@ include("conexion.php");
 
 	$id = $_REQUEST['id'];
 
-	$query = "DELETE FROM Carga_Academica WHERE id_carga_acad = '$id'";
+	$query = "DELETE FROM carga_academica WHERE id_carga_acad = '$id'";
 
 	$resultado = $conexion->query($query);
 

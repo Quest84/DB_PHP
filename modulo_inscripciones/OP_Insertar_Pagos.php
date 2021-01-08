@@ -8,7 +8,7 @@ include("conexion.php");
 	$TipoPago = $_POST['tipoPago'];
 	$Cantidad = $_POST['Cantidad'];
 
-	$query = "INSERT INTO Pagos (id_pago, folio, tipoPago, cantidad) VALUES 
+	$query = "INSERT INTO pagos (id_pago, folio, tipoPago, cantidad) VALUES 
 	('$ID_Pago', '$Folio', '$TipoPago', '$Cantidad')";
 
 	$resultado = $conexion->query($query);

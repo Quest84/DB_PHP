@@ -6,7 +6,7 @@ include("conexion.php");
 	$ID_Carga = $_POST['id_carga_acad'];
 	$Clave_Materia = $_POST['clave_materia'];
 
-	$query = "INSERT INTO Materias_Carga (id_carga_acad, clave_materia) VALUES 
+	$query = "INSERT INTO materias_carga (id_carga_acad, clave_materia) VALUES 
 	('$ID_Carga', '$Clave_Materia')";
 
 	$resultado = $conexion->query($query);

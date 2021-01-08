@@ -6,7 +6,7 @@ include("conexion.php");
 	$ID_Inscripcion = $_POST['id_inscripcion'];
 	$ID_Pago = $_POST['id_pago'];
 
-	$query = "INSERT INTO Inscripciones_Pago (ID_Inscripcion, ID_Pago) VALUES 
+	$query = "INSERT INTO inscripciones_pago (id_inscripcion, id_pago) VALUES 
 	('$ID_Inscripcion', '$ID_Pago')";
 
 	$resultado = $conexion->query($query);
